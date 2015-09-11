@@ -1,0 +1,7 @@
+var javascript = {
+
+};
+
+var ruby = {
+	
+};
