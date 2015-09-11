@@ -1,0 +1,155 @@
+/************************
+*
+*   CSS RESET
+*
+*************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************************
+*
+*   DA REAL CSS
+*
+*************************/
+
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1em;
+	margin: 5%;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 700;
+	color: #1e90ff;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+nav ul {
+	list-style: none;
+	margin-bottom: 2%;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #343d46;
+}
+
+nav ul li a:after {
+	color: #FF69B4;
+	content: " • ";
+}
+
+.itemContainers {
+	margin: 2% 0;
+}
+
+.programming {
+
+}
+
+.category {
+
+}
+
+.category::before {
+	content: "Category: ";
+}
+
+.price {
+
+}
+
+.price::before {
+	content: "Price: ";
+}
+
+.picture {
+
+}
+
+.picture::before {
+	content: "Picture: ";
+}
+
+.highlights {
+
+}
+
+.highlights::before {
+	content: "Highlights: ";
+}
+
+
+
+#ejs {
+
+}
+
+#jstgp {
+
+}
+
+#jsjq {
+
+}
+
+
+/*nav ul li a:last-child:after { 
+	content: none; 
+}*/
